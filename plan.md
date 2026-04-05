@@ -1,8 +1,10 @@
-# AI-First Development IDE - Master Plan
+# AI-First Development IDE - Master Plan (ARCHIVED)
 
-> **Durum:** ONAY BEKLIYOR (Revize Edildi)  
-> **Tarih:** 2026-04-04  
-> **Versiyon:** 3.0 - Mevcut Kod Analizi ile Guncellendi
+> **DIKKAT:** Bu dosya arsivlendi. Guncel plan icin bkz: **[MASTER_PLAN.md](./MASTER_PLAN.md)**
+>
+> **Durum:** ARSIVLENDI  
+> **Tarih:** 2026-04-04 (Arsiv: 2026-04-05)  
+> **Versiyon:** 3.0 - Konsolide plana tasinmistir
 
 ---
 

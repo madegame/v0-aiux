@@ -1,9 +1,11 @@
-# Proje Analizi - 5 Nisan 2026 Genisletilmis Eksikler Raporu v2.0
+# Proje Analizi - 5 Nisan 2026 Genisletilmis Eksikler Raporu v2.0 (ARCHIVED)
 
+> **DIKKAT:** Bu analiz raporu arsivlendi ve **[MASTER_PLAN.md](./MASTER_PLAN.md)** dosyasina konsolide edilmistir.
+>
 > **Tarih:** 2026-04-05  
 > **Proje:** AI Starterkit - v0.dev Ecosystem Core  
 > **Analiz Tipi:** Mimari, Arayuz, UX, Dokumanlar, Uyumluluk, Guvenlik, Test, DevOps  
-> **Versiyon:** 2.0 (Genisletilmis)
+> **Versiyon:** 2.0 (Genisletilmis) - ARSIV
 
 ---
 
