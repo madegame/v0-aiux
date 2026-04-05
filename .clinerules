@@ -1,0 +1,35 @@
+# Cline Rules
+# https://github.com/cline/cline - uyumlu format
+
+## Context
+- Read .ai/rules/system.md for coding standards
+- Read .ai/rules/project.md for project-specific rules
+- Read plan.md for current phase
+
+## Behavior
+- Always update HISTORY.md after changes
+- Use [v0] prefix for debug logs
+- Prefer TypeScript strict mode
+- Use Server Components by default
+
+## Protected
+- DO NOT modify components/ui/*
+- DO NOT modify *.lock files
+- DO NOT expose .env contents
+
+## Preferences
+- shadcn/ui for UI components
+- AI SDK v6 for AI features
+- SWR for data fetching
+- Resizable panels for layout
+
+## Format
+- Files: kebab-case
+- Components: PascalCase
+- Hooks: useXxx
+- Types: PascalCase
+
+## On Completion
+- Update HISTORY.md
+- Suggest next steps
+- Ask if review needed

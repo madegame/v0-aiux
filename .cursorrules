@@ -1,0 +1,37 @@
+# Cursor Rules
+
+## Context Files (Once Oku)
+- .ai/rules/system.md -> Sistem kurallari
+- .ai/rules/project.md -> Proje kurallari
+- .ai/roles/task-agent.md -> Task Agent tanimı
+- .ai/roles/supervisor.md -> Supervisor tanimı
+- plan.md -> Mevcut faz ve gorevler
+- HISTORY.md -> Degisiklik gecmisi
+
+## Kurallar
+1. components/ui/ klasorune DOKUNMA
+2. TypeScript strict mode kullan
+3. Server Components varsayilan
+4. Her degisikligi HISTORY.md'ye kaydet
+5. Type'lari lib/ altinda tanimla
+6. Console.log icin [v0] prefix kullan
+7. Barrel exports kullan (index.ts)
+8. shadcn/ui bilesenlerini tercih et
+
+## Dosya Isimlendirme
+- Components: kebab-case (user-profile.tsx)
+- Hooks: camelCase (useAuth.ts)
+- Types: PascalCase (UserData.ts)
+
+## AI Agent Rolleri
+- Task Agent (sol): code, debug, test
+- Supervisor (sag): plan, review, admin
+
+## Commit Format
+```
+<type>(<scope>): <description>
+
+[AI-AGENT]: task|supervisor
+[ROLE]: code|plan|debug|review|test
+[CHANGES]: dosya listesi
+```

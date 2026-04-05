@@ -1,0 +1,21 @@
+# Feature Components
+
+Bu klasör feature-based component'ler için ayrılmıştır.
+
+## Yapı
+```
+features/
+├── auth/
+│   ├── index.ts
+│   ├── login-form.tsx
+│   └── register-form.tsx
+├── dashboard/
+│   ├── index.ts
+│   └── stats-card.tsx
+└── ...
+```
+
+## Kurallar
+1. Her feature kendi klasöründe
+2. index.ts ile barrel export
+3. Type'lar lib/types.ts'de veya local types.ts'de

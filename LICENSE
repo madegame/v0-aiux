@@ -1,0 +1,59 @@
+PROPRIETARY LICENSE
+
+Copyright (c) 2026 AI Starterkit Contributors
+
+This software and associated documentation files (the "Software") are 
+proprietary and confidential.
+
+================================================================================
+                              RESTRICTIONS
+================================================================================
+
+1. COMMERCIAL USE PROHIBITED
+   Commercial use of this Software is NOT permitted without prior written 
+   authorization from the copyright holder.
+
+2. INDIVIDUAL/PERSONAL USE PROHIBITED
+   Individual or personal use of this Software is NOT permitted without 
+   prior written authorization from the copyright holder.
+
+3. NO REDISTRIBUTION
+   Redistribution of this Software, in whole or in part, in any form 
+   (source code, binary, modified, or unmodified) is strictly prohibited.
+
+4. NO DERIVATIVE WORKS
+   Creating derivative works based on this Software for any purpose is 
+   prohibited without written authorization.
+
+5. NO SUBLICENSING
+   Sublicensing of any rights granted under this license is prohibited.
+
+================================================================================
+                              PERMITTED USE
+================================================================================
+
+This Software is provided ONLY for:
+- Evaluation and demonstration purposes within v0.dev/Vercel ecosystem
+- Development reference within authorized development environments
+- Educational review with explicit permission
+
+================================================================================
+                              DISCLAIMER
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+                              CONTACT
+================================================================================
+
+For licensing inquiries, authorization requests, or any questions regarding
+permitted use of this Software, please contact the repository maintainer.
+
+ALL RIGHTS RESERVED.

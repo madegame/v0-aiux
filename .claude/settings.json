@@ -1,0 +1,54 @@
+{
+  "$schema": "https://claude.ai/schemas/claude-code-settings.json",
+  "version": "1.0",
+  "name": "v0-ai-starterkit",
+  
+  "context": {
+    "always_include": [
+      ".ai/rules/system.md",
+      ".ai/rules/project.md",
+      "HISTORY.md"
+    ],
+    "on_demand": [
+      "plan.md",
+      ".ai/roles/task-agent.md",
+      ".ai/roles/supervisor.md"
+    ]
+  },
+  
+  "rules": {
+    "coding": {
+      "language": "typescript",
+      "strict_mode": true,
+      "prefer_server_components": true
+    },
+    "naming": {
+      "files": "kebab-case",
+      "components": "PascalCase",
+      "hooks": "camelCase",
+      "constants": "SCREAMING_SNAKE_CASE"
+    },
+    "protected_paths": [
+      "components/ui/**",
+      "node_modules/**",
+      "*.lock",
+      ".env*"
+    ]
+  },
+  
+  "behavior": {
+    "auto_update_history": true,
+    "debug_prefix": "[v0]",
+    "commit_format": "<type>(<scope>): <description>",
+    "on_complete": [
+      "update_history",
+      "suggest_next_steps"
+    ]
+  },
+  
+  "integrations": {
+    "ai_sdk": "6.0",
+    "ui_library": "shadcn/ui",
+    "data_fetching": "swr"
+  }
+}

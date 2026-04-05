@@ -1,0 +1,15 @@
+# Shared Components
+
+Bu klasör birden fazla feature'da kullanılan paylaşılan component'ler içindir.
+
+## Örnek
+- header.tsx
+- footer.tsx
+- navigation.tsx
+- page-header.tsx
+- empty-state.tsx
+
+## Kurallar
+1. Feature-specific değil, genel kullanım
+2. Barrel export (index.ts) kullan
+3. Accessibility öncelikli

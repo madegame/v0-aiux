@@ -1,0 +1,21 @@
+# Services
+
+Bu klasör business logic ve API client fonksiyonları içindir.
+
+## Yapı
+```
+services/
+├── auth/
+│   ├── index.ts
+│   └── auth.service.ts
+├── api/
+│   ├── client.ts
+│   └── endpoints.ts
+└── ...
+```
+
+## Kurallar
+1. Domain bazlı organizasyon
+2. Pure functions tercih et
+3. Type-safe API calls
+4. Error handling
