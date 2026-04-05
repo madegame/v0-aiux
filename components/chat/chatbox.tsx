@@ -100,17 +100,16 @@ const ROLE_CONFIG: Record<LLMRole, { icon: typeof Code; label: string; descripti
   admin: { icon: Shield, label: 'Admin', description: 'Yonetim', color: 'text-red-400' },
 };
 
+import { PROVIDER_CONFIGS, DEFAULT_PROVIDER, DEFAULT_MODEL } from '@/lib/ai/provider/models';
+
 const PROVIDERS: { value: LLMProvider; label: string; model: string }[] = [
-  { value: 'vercel', label: 'Vercel AI Gateway', model: 'vercel:gpt-4o' },
-  { value: 'openrouter', label: 'OpenRouter', model: 'openrouter:claude-3.5-sonnet' },
-  { value: 'openai', label: 'OpenAI', model: 'openai:gpt-4o' },
-  { value: 'anthropic', label: 'Anthropic', model: 'anthropic:claude-3.5-sonnet' },
-  { value: 'google', label: 'Google', model: 'google:gemini-pro' },
-  { value: 'groq', label: 'Groq', model: 'groq:llama-3.1-70b' },
-  { value: 'fireworks', label: 'Fireworks', model: 'fireworks:llama-v3p1-70b' },
-  { value: 'roocode', label: 'RooCode', model: 'roocode:claude-sonnet-4.5' },
-  { value: 'kilocode', label: 'KiloCode', model: 'kilocode:frontier-coding' },
-  { value: 'cline', label: 'Cline', model: 'cline:grok-2' },
+  { value: 'vercel-ai-gateway', label: 'Vercel AI Gateway', model: 'anthropic/claude-sonnet-4' },
+  { value: 'openai', label: 'OpenAI', model: 'gpt-4o' },
+  { value: 'anthropic', label: 'Anthropic', model: 'claude-sonnet-4' },
+  { value: 'google', label: 'Google AI', model: 'gemini-3-flash' },
+  { value: 'groq', label: 'Groq', model: 'llama-3.1-70b' },
+  { value: 'fireworks', label: 'Fireworks', model: 'llama-v3p1-70b-instruct' },
+  { value: 'openrouter', label: 'OpenRouter', model: 'anthropic/claude-3.5-sonnet' },
 ];
 
 export function Chatbox({
@@ -123,8 +122,8 @@ export function Chatbox({
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [selectedRole, setSelectedRole] = useState<LLMRole>('code');
-  const [selectedProvider, setSelectedProvider] = useState<LLMProvider>('vercel');
-  const [selectedModel, setSelectedModel] = useState<string>('gpt-4o');
+  const [selectedProvider, setSelectedProvider] = useState<LLMProvider>(DEFAULT_PROVIDER);
+  const [selectedModel, setSelectedModel] = useState<string>(DEFAULT_MODEL);
   const [attachments, setAttachments] = useState<Attachment[]>([]);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [mode, setMode] = useState<'plan' | 'act'>('act');

@@ -10,16 +10,13 @@
 // ============================================
 
 export type LLMProvider =
-  | 'openai'        // gpt-5-mini, gpt-4-turbo, codex
-  | 'anthropic'     // claude-opus-4.6, claude-sonnet, claude-code
-  | 'google'        // gemini-3-flash, gemini-pro
-  | 'groq'          // llama-3.1
-  | 'fireworks'     // mixtral
-  | 'openrouter'    // 200+ model (custom API key)
-  | 'vercel'        // Vercel AI Gateway (default)
-  | 'roocode'       // RooCode integrations
-  | 'kilocode'      // KiloCode models
-  | 'cline';        // Cline integrations
+  | 'vercel-ai-gateway'  // Default - zero config (openai/gpt-5-mini, anthropic/claude-opus-4.6, google/gemini-3-flash)
+  | 'openai'             // OpenAI direct (requires OPENAI_API_KEY)
+  | 'anthropic'          // Anthropic direct (requires ANTHROPIC_API_KEY)
+  | 'google'             // Google AI direct (requires GOOGLE_AI_API_KEY)
+  | 'groq'               // Groq (requires AI_GATEWAY_API_KEY)
+  | 'fireworks'          // Fireworks AI (supported via AI Gateway)
+  | 'openrouter';        // OpenRouter (requires OPENROUTER_API_KEY)
 
 export type LLMRole = 
   | 'ask'      // Soru sorma, aciklama alma
